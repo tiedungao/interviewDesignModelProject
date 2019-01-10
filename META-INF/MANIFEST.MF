@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: commons-collections4-4.1.jar commons-lang.jar
+Main-Class: com.interview.design.decorate.Test
+
