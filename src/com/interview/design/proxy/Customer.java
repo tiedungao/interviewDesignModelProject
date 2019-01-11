@@ -3,7 +3,7 @@ package com.interview.design.proxy;
 public class Customer {
 
     public static void main(String[] args) {
-        Shopping proxy = new Proxy(new GoodsFactory());
+        Shopping proxy = new ShoppingProxy(new GoodsFactory());
 
         System.out.println("我要买双个包");
         proxy.buyBag();

@@ -1,9 +1,9 @@
 package com.interview.design.proxy;
 
-public class Proxy implements Shopping {
+public class ShoppingProxy implements Shopping {
     private Shopping goodsFactory;
 
-    public Proxy(Shopping goodsFactory) {
+    public ShoppingProxy(Shopping goodsFactory) {
         this.goodsFactory = goodsFactory;
     }
 
