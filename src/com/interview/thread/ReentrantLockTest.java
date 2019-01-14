@@ -20,7 +20,7 @@ public class ReentrantLockTest implements Runnable {
             try {
                 i++;
             }finally {
-                    lock.unlock();
+                lock.unlock();
                 //lock.unlock();
             }
         }

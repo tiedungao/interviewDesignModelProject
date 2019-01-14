@@ -1,11 +1,5 @@
 package com.interview.design.singleton;
 
-import com.interview.design.singleton.enums.SingletonEnums;
-import com.interview.design.singleton.hungry.SingletonHungry;
-
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-
 /**
  * @Author: gtd
  * @Description:
